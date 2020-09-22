@@ -3,9 +3,7 @@ def encode(message, shift):
     rest = shift % 26
     for i in range(0, len(message)):
         nt_enc = ord(message[i])
-        if rest == 0 or nt_enc < 65 or (90 < nt_enc < 97) or nt_enc > 122:
-            encoded_message += chr(nt_enc)
-        elif 65 <= nt_enc <= 90:  # suured tahed
+        if 65 <= nt_enc <= 90:  # suured tahed
             difference = 90 - nt_enc
             if difference >= rest:
                 encoded_message += chr(nt_enc + rest)
