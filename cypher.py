@@ -43,4 +43,6 @@ def crack(encoded_message, phrase):
 
 
 if __name__ == '__main__':
-    print(encode("i like turtles", 6))
+    result = encode("i like turtles", 6)
+    print(result)
+    assert result == "o roqk zaxzrky"
