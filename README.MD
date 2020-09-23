@@ -1,4 +1,4 @@
-#Debugging of snakes
+# Debugging of snakes
 
 Here you can find materials about and for debugging training.
 
