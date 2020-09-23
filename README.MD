@@ -8,6 +8,7 @@ Here you can find materials about and for debugging training.
 1. What is debugging? - 5 min
 1. Errors vs Failures - 10 min - Differences between those
 1. Print statements - 10 min - What and where to print? Why custom classes returns some rubbish?
+1. Jupyter and python console debugging - 10 min
 1. Unit tests - 10 min - When and how to write tests? How teachers are writing those? [Will be based on this materials](https://www.datacamp.com/community/tutorials/unit-testing-python)
 and [these](https://docs.python.org/3/library/unittest.html)
 1. Rubber duck or grandma debugging - 5 min
